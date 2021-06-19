@@ -2,4 +2,11 @@ package com.example.learningdagger
 
 import javax.inject.Inject
 
-class Wheels @Inject constructor()
+// we don't own this class, therefore we can't annotate the constructor
+class Wheels (
+    private val rims: Rims,
+    private val tires: Tires
+        ) {
+
+}
+
