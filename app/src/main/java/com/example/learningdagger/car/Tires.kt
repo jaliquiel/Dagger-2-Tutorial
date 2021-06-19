@@ -1,4 +1,4 @@
-package com.example.learningdagger
+package com.example.learningdagger.car
 
 import android.util.Log
 
@@ -10,6 +10,6 @@ class Tires {
     }
 
     companion object {
-        private const val TAG = "Tires"
+        private const val TAG = "Car"
     }
 }

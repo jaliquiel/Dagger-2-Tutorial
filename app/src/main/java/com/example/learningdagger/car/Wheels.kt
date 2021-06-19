@@ -1,6 +1,4 @@
-package com.example.learningdagger
-
-import javax.inject.Inject
+package com.example.learningdagger.car
 
 // we don't own this class, therefore we can't annotate the constructor
 class Wheels (

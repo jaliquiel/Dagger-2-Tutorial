@@ -1,4 +1,4 @@
-package com.example.learningdagger
+package com.example.learningdagger.car
 
 import android.util.Log
 import javax.inject.Inject
@@ -9,6 +9,6 @@ class Remote @Inject constructor(){
         Log.d(TAG, "Remote Connected")
 
     companion object {
-        const val TAG = "Remote"
+        const val TAG = "Car"
     }
 }

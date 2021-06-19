@@ -1,4 +1,4 @@
-package com.example.learningdagger
+package com.example.learningdagger.car
 
 import android.util.Log
 import javax.inject.Inject
@@ -6,7 +6,8 @@ import javax.inject.Inject
 class Car @Inject constructor(private val engine: Engine, private val wheels: Wheels) {
 
     fun drive() {
-        Log.d(Car.Companion.TAG, "driving...")
+        engine.start()
+        Log.d(TAG, "driving...")
     }
 
     @Inject
